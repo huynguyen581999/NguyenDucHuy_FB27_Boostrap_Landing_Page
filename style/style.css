@@ -1,0 +1,144 @@
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+#intro {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 100vw;
+  height: 100vh;
+}
+#intro .intro__content h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+#intro .intro__content p {
+  font-size: 20px;
+  width: 350px;
+  font-weight: 650;
+}
+@media screen and (min-width: 575px) {
+  #intro .intro__content p {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #intro .intro__content p {
+    width: 700px;
+  }
+}
+
+#best-features ul li {
+  margin-top: 20px;
+}
+#best-features ul li i {
+  font-size: 50px;
+}
+#best-features ul li i.color_yellow {
+  color: #ffc107;
+}
+#best-features ul li i.color_darkpink {
+  color: #dc3545;
+}
+#best-features ul li i.color_blue {
+  color: #007bff;
+}
+#best-features ul li h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+#best-features ul li p {
+  margin: 0 auto;
+}
+@media screen and (min-width: 575px) {
+  #best-features ul li p {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #best-features ul li p {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #best-features ul li p {
+    width: 360px;
+  }
+}
+
+#stunning-examples img {
+  width: 100%;
+}
+#stunning-examples h2 {
+  width: 300px;
+}
+
+#gallery-heading i {
+  color: #007bff;
+}
+#gallery-heading span {
+  color: #007bff;
+  font-weight: 700;
+}
+#gallery-heading h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#gallery-heading p {
+  width: 320px;
+}
+@media screen and (min-width: 576px) {
+  #gallery-heading p {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #gallery-heading p {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #gallery-heading p {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #gallery-heading p {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #gallery-heading p {
+    width: 520px;
+  }
+}
+
+#contact-us form button {
+  background-color: #007bff;
+}
+@media screen and (min-width: 1200px) {
+  #contact-us form {
+    width: 500px;
+  }
+}
+
+#footer p {
+  text-align: left;
+}
+@media screen and (min-width: 992px) {
+  #footer ul {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

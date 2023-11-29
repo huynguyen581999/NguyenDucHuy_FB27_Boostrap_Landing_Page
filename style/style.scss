@@ -1,0 +1,168 @@
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+#intro {
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100vw;
+    height: 100vh;
+
+    .intro {
+        &__content {
+            h1 {
+                font-size: 55px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 20px;
+                width: 350px;
+                font-weight: 650;
+
+                @media screen and (min-width: 575px) {
+                    width: 500px;
+                }
+
+                @media screen and (min-width: 768px) {
+                    width: 700px;
+                }
+
+            }
+
+
+        }
+    }
+
+}
+
+#best-features {
+    ul {
+        li {
+            margin-top: 20px;
+
+            i {
+                font-size: 50px;
+
+                &.color_yellow {
+                    color: #ffc107;
+                }
+
+                &.color_darkpink {
+                    color: #dc3545;
+                }
+
+                &.color_blue {
+                    color: #007bff;
+                }
+            }
+
+            h4 {
+                font-size: 24px;
+                font-weight: 700;
+                margin: 30px 0;
+            }
+
+            p {
+                margin: 0 auto;
+
+                @media screen and (min-width: 575px) {
+                    width: 550px;
+                }
+
+                @media screen and (min-width: 768px) {
+                    width: 200px;
+                }
+
+                @media screen and (min-width: 1200px) {
+                    width: 360px;
+                }
+            }
+        }
+    }
+
+}
+
+#stunning-examples {
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        width: 300px;
+    }
+}
+
+#gallery-heading {
+    i {
+        color: #007bff;
+    }
+
+    span {
+        color: #007bff;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    p {
+        width: 320px;
+
+        @media screen and (min-width: 576px) {
+            width: 500px;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 300px;
+        }
+
+        @media screen and (min-width: 992px) {
+            width: 400px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 450px;
+        }
+
+        @media screen and (min-width: 1400px) {
+            width: 520px;
+        }
+    }
+}
+
+#contact-us {
+    form {
+        button {
+            background-color: #007bff;
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 500px;
+        }
+    }
+}
+
+#footer {
+    p {
+        text-align: left;
+    }
+
+    ul {
+        @media screen and (min-width: 992px) {
+            text-align: left;
+        }
+    }
+}
